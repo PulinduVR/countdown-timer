@@ -1,0 +1,29 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "Author": "Pulindu Ranaweera",
+  "main": "./main.js",
+  "build": {
+    "appId": "com.pulindur.countdowntimer",
+    "productName": "Countdown Timer",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A sleek countdown timer built with Electron.",
+  "devDependencies": {
+    "electron-builder": "^26.0.12",
+    "electron": "^36.1.0"
+  }
+}

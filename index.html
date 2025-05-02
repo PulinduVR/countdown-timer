@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CodeJam</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+
+    <div id="input-fields">
+      <label>Hours: <input type="number" id="hours" placeholder="0" /></label>
+      <label>Minutes: <input type="number" id="minutes" placeholder="0" /></label>
+    </div>
+
+    <div id="controls">
+      <button onclick="startCountdown()">Start</button>
+      <button onclick="resetCountdown()">Reset</button>
+    </div>
+
+    <h2 id="display">00:00:00</h2>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
