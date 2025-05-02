@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('./assets/bg.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #app {
+    text-align: center;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.05);
+    backdrop-filter: blur(20px);
+    width: 70%;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+  }
+  
+  #input-fields {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 80px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #28a745;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  #display {
+    font-size: 200px !important;
+    font-weight: bold;
+    transition: font-size 0.3s;
+  }
+  
+  #display.large {
+    font-size: 80px;
+    margin-top: 20px;
+  }
+  
+  body.times-up {
+    background-color: #ff1e1e !important;
+    color: ff1e1e !important;
+  }
+  
+  #display.huge {
+    font-size: 100px;
+    color: white;
+  }
+  
